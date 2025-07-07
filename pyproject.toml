@@ -5,6 +5,7 @@ description = "PDF Q&A Bot with Gemini & ChromaDB"
 authors = [
     {name = "Aarav Asthana",email = "aaravasthana2308@gmail.com"}
 ]
+package-mode = false
 readme = "README.md"
 requires-python = "^3.10"
 dependencies = [
