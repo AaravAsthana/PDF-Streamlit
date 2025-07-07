@@ -1,0 +1,24 @@
+[project]
+name = "streamlit-pdf-bot"
+version = "0.1.0"
+description = "PDF Q&A Bot with Gemini & ChromaDB"
+authors = [
+    {name = "Aarav Asthana",email = "aaravasthana2308@gmail.com"}
+]
+readme = "README.md"
+requires-python = "^3.10"
+dependencies = [
+    "streamlit (>=1.46.1,<2.0.0)",
+    "python-dotenv (>=1.1.1,<2.0.0)",
+    "llama-cloud-services (>=0.6.41,<0.7.0)",
+    "langchain (>=0.3.26,<0.4.0)",
+    "unstructured (>=0.18.2,<0.19.0)",
+    "chromadb (>=1.0.15,<2.0.0)",
+    "sentence-transformers (>=5.0.0,<6.0.0)",
+    "google-genai (>=1.24.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
